@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding-top: 3px;
+}
+body{
+background-image: url("img/sfondo.jpg");
+}
+#container{
+  width: 100vh;
+  height: 100vw;
+  margin: 0 auto;
+}
+
+.logo{
+  display: inline-block;
+}
+
+.textgmail{
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 90px;
+  height: 67px;
+  margin-left: 10px;
+  color: white;
+}
+/* utlity class */
+.border{
+   border-bottom: 1px solid white;
+   margin-bottom: 14px;
+}
+.textmail{
+  color:white;
+}
+
+.number{
+  background-color: #ff7514;
+  border-radius: 50%;
+}
+
+.read{
+  background-color: lightgrey;
+}
+.unread{
+  background-color: white;
+}
+.left,.right{
+  display: inline-block;
+}
+.right{
+  color:grey;
+}
+.credits{
+  font-style: italic;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
