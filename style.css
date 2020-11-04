@@ -14,12 +14,13 @@ background-image: url("img/sfondo.jpg");
 
 .logo{
   display: inline-block;
+  vertical-align:middle;
+  line-height: 67px;
 }
 
 .textgmail{
   font-size: 20px;
   display: inline-block;
-  vertical-align: middle;
   width: 90px;
   height: 67px;
   margin-left: 10px;
